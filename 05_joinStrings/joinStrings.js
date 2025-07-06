@@ -23,6 +23,7 @@ let greeting =
   " years old.";
 let fullName = firstName + " " + lastName;
 let age = thisYear - birthYear;
+greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 // Do not change this
 module.exports = {
