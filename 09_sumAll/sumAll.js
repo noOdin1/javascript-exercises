@@ -4,8 +4,9 @@ const sumAll = function (a, b) {
   if (b < a) {
     [a, b] = [b, a]; // alt: b = [a, a = b][0];
   }
-  console.log(`a = ${a}, b = ${b}`);
 
+  // src:
+  //  https://www.freecodecamp.org/news/javascript-range-create-an-array-of-numbers-with-the-from-method/
   const arrayRange = (start, stop, step) =>
     Array.from(
       { length: (stop - start) / step + 1 },
